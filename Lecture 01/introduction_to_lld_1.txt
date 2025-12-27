@@ -1,0 +1,31 @@
+Introduction to lld
+
+Designing the internal structure (“skeleton”) of an application by identifying
+classes/objects, their relationships, data flows, and how DSA solutions plug into this
+structure.
+
+
+Three LLD core principle and focus
+    -> Scalability
+        -> Handle large user volumes easily.
+        -> Code structure should allow rapid, low‑effort expansion (adding servers, features).
+
+    -> Maintainability
+        -> New features shouldn’t break existing ones.
+        -> Code should be easy to debug and locate bugs.
+
+    -> Reusability (Plug and play model) 
+        -> Write loosely coupled, “plug‑and‑play” modules (e.g. generic notification or matching
+            algorithms usable across apps like Zomato, Swiggy, Amazon delivery).
+
+
+What is Not LLD
+
+    HLD : High level Design
+        Focuses on 
+            -> Tech Stack (Java/ SpringBoot)
+            -> DB(SQL, NoSql)
+            -> Server Scale
+            -> Cost optimization 
+
+DSA is the brain of an application and LLD is Skeleton

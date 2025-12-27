@@ -1,0 +1,68 @@
+HISTORY OF PROGRAMMING
+
+    -> Machine language (0/1)
+        01011001 01101
+            -> prone to error 
+            -> Tedious
+            -> not scalable
+    
+    -> Assembly level language
+        MOV A, 61H
+            -> prone to error
+            -> Not scalable
+            -> Tedious
+    
+    -> Procedural Programming
+        Function
+        Loops 
+        Blocks (If else ,switch)
+
+        set of instructions
+    
+    -> OOPS (Object oriented programming)
+        -> Solved real world problem
+        -> Data security
+        -> are highly scalable 
+        -> are reusable 
+
+
+
+
+OOPS 
+
+    Object
+        -> Characteristics 
+        -> Behaviour
+
+        eg. 
+            Car :   
+                Characteristics :  engine , Brand , Model 
+                Behaviour : Start, Stop , gear change ,accelerate , brake
+
+            Pseudocode 
+            Class car {
+                String Brand
+                string Model
+                bool engineOn
+
+                void Start(){}
+                void stop(){}
+            } 
+
+
+    Pillars of OOPS
+        -> Abstraction
+        -> Encapsulation
+        -> Inheritance
+        -> Polymorphism
+
+
+    Access Modifiers 
+
+        -> Public 
+        -> Private
+        -> Protected
+
+
+
+
